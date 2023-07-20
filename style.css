@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 5px;
+    background-color:burlywood;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0px 10px;
+}   
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+h1{
+    text-align: center;
+    margin: auto;
+    color: firebrick;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: all 0.3s ease 0s;
+}
+nav ul li a:hover{
+    color:firebrick;
+    transition: all 0.3s ease 0s;
+}
+
+.main{
+    text-align: center;
+    font-size: 30px;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left, #c33764 ,#1d2671);
+}
+
+
+.container{
+    max-width: 1080px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer > ul{
+    list-style: none;
+}
+
+.footer{
+    background-color: black;
+    padding: 20px 0px;
+
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0px 15px;
+}
+
+.footer-col h4{
+    font-size: 20px;
+    color: wheat;
+    margin-bottom: 10px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li{
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    color: gray;
+}
+
+.footer-col .social-media a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    border-radius: 50%;
+
+}
